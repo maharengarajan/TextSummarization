@@ -70,10 +70,3 @@ if st.button("Summarize"):
             except Exception as e:
                 st.error(f"An error occurred: {e}")
 
-
-
-# if __name__ == "__main__":
-#     url = "https://www.youtube.com/watch?v=wFdFLWc-W4k&t=1589s"  
-#     summary = summarize(api_key="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",generic_url=url)
-#     print(summary)
-
